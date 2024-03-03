@@ -1,5 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Description
+
+This project is a real-time chat application developed using Next.js for the frontend and firebase for the backend. It allows users to engage in chat conversations in real-time.
+
+---
+
+## Features
+
+- Real-time messaging: Users can send and receive messages in real-time.
+- User authentication: Secure user authentication system to ensure privacy.
+- Responsive design: The application is optimized for various screen sizes and devices.
+
+---
+
+## Installation
 ## Getting Started
 
 First, run the development server:

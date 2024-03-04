@@ -28,9 +28,10 @@ const Chat = () => {
     <>
       <main className="flex flex-col p-[10px] relative">
         {/* chat message */}
-        {messages.map((message) => (
-          <Message key={message.id} message={message} />
-        ))}
+        {messages &&
+          messages.map((message) => (
+            <Message key={message.id} message={message} />
+          ))}
       </main>
       {/* Send Message */}
       <SendMessage scroll={scroll} />

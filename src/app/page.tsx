@@ -52,15 +52,22 @@
 //     </main>
 //   );
 // }
+'use client';
 import React from "react";
 import NavBar from "@/components/navbar";
+import Chat from "./chatPage/page";
 
 function Main() {
   return (
     <body className="max-w-[728px] mx-auto text-center">
-      <NavBar />
+      <section className="flex flex-col h-[90vh] bg-gray-100 shadow-xl border relative">
 
-      <section className="flex flex-col h-[90vh] bg-gray-100 shadow-xl border relative"></section>
+        <NavBar />
+        (user ? <Chat /> : null)
+
+      </section>
+
+
     </body>
   )
 }

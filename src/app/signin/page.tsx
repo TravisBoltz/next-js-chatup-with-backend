@@ -1,7 +1,7 @@
 'use client';
 import GoogleButton from "react-google-button";
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
-import { auth } from ".../dbConfig/firebase";
+import { auth } from "@/dbConfig/firebase";
 const googleSignIn = () => {
   const provider = new GoogleAuthProvider();
   signInWithRedirect(auth, provider);

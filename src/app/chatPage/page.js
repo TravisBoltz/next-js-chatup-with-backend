@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Message from "@/components/message";
 import React from "react";
 import SendMessage from "@/components/sendMessage";

@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-icon {
+  margin-right: 5px; /* Adjust spacing as needed */
+}
+/* Scroll Styling */
+/* width and height */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e7e7e7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #636262;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+body{
+  font-family:sans-serif;
+    background-color: #e7e7e7;
+    font-size: 16px;
+    color: #2f4d8f;
+}
+
+/* Add this to your CSS file or style tag in the component */
+@media (max-width: 768px) {
+  body {
+    background-color: transparent;
+  }
+  
+    .logo-image {
+      opacity: 0.1; /* Adjust opacity as needed (0.0 to 1.0) */
+      max-width: 150px; /* Adjust the maximum width as needed */
+    }
+  
+
+
+}

@@ -55,7 +55,7 @@ const SplashScreen = ({ finishLoading }) => {
 
   return (
     <div
-      className="flex h-screen items-center justify-center"
+      className="flex h-screen bg-gray-800 items-center justify-center"
       isMounted={isMounted}
     >
       <Image
